@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fresh steamed puto and crunchy caramelized banana pinasugbo from Barrido's.">
+  <title>Barrido’s Puto &amp; Pinasugbo | Session A Structure</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen bg-amber-50 text-stone-900 antialiased">
+  <header class="sticky top-0 z-10 border-b border-amber-200 bg-amber-50">
+    <nav class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 md:px-8" aria-label="Main navigation">
+      <a href="#top" class="rounded-lg text-lg font-bold">🍡 Barrido’s</a>
+      <ul class="order-3 flex w-full gap-5 overflow-x-auto text-sm font-semibold md:order-2 md:w-auto">
+        <li><a class="underline-offset-4 hover:underline" href="#about">About</a></li>
+        <li><a class="underline-offset-4 hover:underline" href="#favorites">Favorites</a></li>
+        <li><a class="underline-offset-4 hover:underline" href="#contact">Contact</a></li>
+      </ul>
+      <a class="order-2 rounded-full bg-amber-800 px-4 py-2 text-sm font-bold text-white md:order-3" href="#contact">Order inquiry</a>
+    </nav>
+  </header>
+
+  <main id="top" class="mx-auto max-w-6xl px-4 md:px-8">
+    <section id="hero" class="grid min-h-[70vh] items-center gap-10 py-12 md:grid-cols-2 md:py-20" aria-labelledby="hero-title">
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-amber-800">A little taste of home</p>
+        <h1 id="hero-title" class="mt-3 text-4xl font-extrabold leading-tight md:text-6xl">Barrido’s Puto &amp; Pinasugbo</h1>
+        <p class="mt-5 max-w-xl text-lg leading-relaxed text-stone-700">Soft steamed puto and crunchy caramelized banana pinasugbo, made fresh every morning.</p>
+        <a class="mt-8 inline-block rounded-full bg-amber-800 px-6 py-3 font-bold text-white" href="#contact">Get in touch</a>
+      </div>
+      <div class="mx-auto grid aspect-square w-full max-w-sm place-items-center rounded-3xl bg-amber-100 p-8 text-center shadow-lg" aria-label="Illustration of Filipino merienda">
+        <div><span class="text-8xl" aria-hidden="true">🍡</span><p class="mt-5 text-2xl font-bold">Freshly made, lovingly shared.</p><p class="mt-2 text-stone-700">Small batches · Local flavor</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="scroll-mt-24 py-12 md:py-16" aria-labelledby="about-title">
+      <div class="grid gap-6 rounded-3xl bg-white p-6 shadow md:grid-cols-2 md:items-center md:p-10">
+        <h2 id="about-title" class="text-3xl font-bold md:text-4xl">A warm welcome in every bite</h2>
+        <p class="leading-relaxed text-stone-700">Barrido’s brings familiar Filipino merienda to your table. We prepare soft, fluffy puto and crisp, sweet pinasugbo in small daily batches—with fresh ingredients and the comfort of a home kitchen.</p>
+      </div>
+    </section>
+
+    <section id="favorites" class="scroll-mt-24 py-12 md:py-16" aria-labelledby="favorites-title">
+      <div class="mb-8">
+        <p class="font-semibold uppercase tracking-[0.16em] text-amber-800">Made fresh daily</p>
+        <h2 id="favorites-title" class="mt-2 text-3xl font-bold md:text-4xl">Our local favorites</h2>
+      </div>
+      <div class="grid gap-6 md:grid-cols-3">
+        <article class="rounded-3xl bg-white p-6 shadow">
+          <div class="grid h-32 place-items-center rounded-2xl bg-amber-100 text-6xl" aria-hidden="true">🧁</div>
+          <h3 class="mt-5 text-xl font-bold">Classic Puto</h3>
+          <p class="mt-2 leading-relaxed text-stone-700">Tender, gently sweet steamed rice cakes—soft, simple, and perfect to share.</p>
+        </article>
+        <article class="rounded-3xl bg-white p-6 shadow">
+          <div class="grid h-32 place-items-center rounded-2xl bg-amber-100 text-6xl" aria-hidden="true">🍌</div>
+          <h3 class="mt-5 text-xl font-bold">Banana Pinasugbo</h3>
+          <p class="mt-2 leading-relaxed text-stone-700">Crisp banana slices coated in a glossy caramel crunch for a sweet bite.</p>
+        </article>
+        <article class="rounded-3xl bg-white p-6 shadow">
+          <div class="grid h-32 place-items-center rounded-2xl bg-amber-100 text-6xl" aria-hidden="true">🎁</div>
+          <h3 class="mt-5 text-xl font-bold">Merienda Boxes</h3>
+          <p class="mt-2 leading-relaxed text-stone-700">A ready-to-share mix of daily favorites for family, friends, and celebrations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-mt-24 py-12 md:py-16" aria-labelledby="contact-title">
+      <div class="grid gap-8 rounded-3xl bg-white p-6 shadow md:grid-cols-2 md:p-10">
+        <div>
+          <h2 id="contact-title" class="text-3xl font-bold md:text-4xl">Let’s make merienda</h2>
+          <p class="mt-4 leading-relaxed text-stone-700">Questions or a special order? Leave a note using the sample form. This class-project form does not send messages.</p>
+        </div>
+        <form class="space-y-4">
+          <div><label for="name" class="text-sm font-semibold">Name</label><input id="name" name="name" class="mt-1 w-full rounded-xl border border-amber-300 bg-amber-50 px-4 py-3" type="text" autocomplete="name" required></div>
+          <div><label for="email" class="text-sm font-semibold">Email</label><input id="email" name="email" class="mt-1 w-full rounded-xl border border-amber-300 bg-amber-50 px-4 py-3" type="email" autocomplete="email" required></div>
+          <div><label for="message" class="text-sm font-semibold">Message</label><textarea id="message" name="message" class="mt-1 w-full rounded-xl border border-amber-300 bg-amber-50 px-4 py-3" rows="4" required></textarea></div>
+          <button class="w-full rounded-full bg-amber-800 px-6 py-3 font-bold text-white" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-8 border-t border-amber-200 px-4 py-8 text-center text-sm text-stone-700">
+    <p>© 2026 Barrido’s Puto &amp; Pinasugbo. Made with care.</p>
+    <a class="mt-2 inline-block underline" href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
