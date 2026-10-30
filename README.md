@@ -1,7 +1,7 @@
 
 # Barrido’s Puto and Pinasugbo
 
-Live site: https://github.com/jovince2004/Delacruz-midterm-exam.git
+Live site: https://jovince2004.github.io/Delacruz-midterm-exam/
 
 ## About
 A small-business website for a Manapla food stall selling puto and pinasugbo. It is for customers who want to see the products, read the news and visit the store or buy pasalubong.
